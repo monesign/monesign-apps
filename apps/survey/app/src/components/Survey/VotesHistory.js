@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Spring } from 'react-spring'
-import { unselectable } from '@aragon/ui'
+import { unselectable } from '@monesign/ui'
 import { getOptionColor } from '../../option-utils'
 import springs from '../../springs'
 import { DURATION_SLICES } from '../../survey-settings'

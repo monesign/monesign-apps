@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text } from '@aragon/ui'
+import { Text } from '@monesign/ui'
 import PropTypes from 'prop-types'
 
 import TabItem from './TabItem'

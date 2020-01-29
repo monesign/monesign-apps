@@ -9,7 +9,7 @@ import {
   SidePanel,
   TextInput,
   useSidePanelFocusOnReady,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import { isAddress } from '../../web3-utils'
 import {
   fromDecimals,

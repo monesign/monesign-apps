@@ -6,7 +6,7 @@ import Table from '../../components/Table'
 import { salaryType } from '../../types'
 import { formatDate } from '../../utils/formatting'
 
-import { theme } from '@aragon/ui'
+import { theme } from '@monesign/ui'
 import Timer from '../../components/Timer'
 
 const initializeColumns = (

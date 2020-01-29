@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button, GU, useTheme } from '@aragon/ui'
+import { Button, GU, useTheme } from '@monesign/ui'
 import noResultsSvg from './assets/no-results.svg'
 
 function EmptyFilteredTransfers({ onClear }) {

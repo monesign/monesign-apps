@@ -8,9 +8,9 @@ import "./SignatureValidator.sol";
 import "./standards/IERC165.sol";
 import "./standards/ERC1271.sol";
 
-import "@aragon/apps-vault/contracts/Vault.sol";
+import "@monesign/apps-vault/contracts/Vault.sol";
 
-import "@aragon/os/contracts/common/IForwarder.sol";
+import "@monesign/os/contracts/common/IForwarder.sol";
 
 
 contract Agent is IERC165, ERC1271Bytes, IForwarder, IsContract, Vault {

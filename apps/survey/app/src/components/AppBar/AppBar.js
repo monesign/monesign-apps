@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { AppBar, Badge, Button, Viewport } from '@aragon/ui'
+import { AppBar, Badge, Button, Viewport } from '@monesign/ui'
 import { Transition, animated } from 'react-spring'
 import MenuButton from '../MenuButton/MenuButton'
 import LeftIcon from './LeftIcon'

@@ -7,7 +7,7 @@ import {
   GU,
   textStyle,
   useTheme,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import { useSettings } from '../vote-settings-manager'
 import {
   VOTE_STATUS_ONGOING,

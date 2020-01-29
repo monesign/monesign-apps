@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { AragonApi } from '@aragon/api-react'
+import { AragonApi } from '@monesign/api-react'
 import appStateReducer from './app-state-reducer'
 import App from './App'
 

@@ -1,16 +1,16 @@
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/acl/ACL.sol";
-import "@aragon/os/contracts/apps/AppProxyBase.sol";
-import "@aragon/os/contracts/factory/DAOFactory.sol";
-import "@aragon/os/contracts/kernel/Kernel.sol";
-import "@aragon/os/contracts/kernel/KernelProxy.sol";
+import "@monesign/os/contracts/acl/ACL.sol";
+import "@monesign/os/contracts/apps/AppProxyBase.sol";
+import "@monesign/os/contracts/factory/DAOFactory.sol";
+import "@monesign/os/contracts/kernel/Kernel.sol";
+import "@monesign/os/contracts/kernel/KernelProxy.sol";
 
-import "@aragon/apps-shared-migrations/contracts/Migrations.sol";
-import "@aragon/test-helpers/contracts/EtherTokenConstantMock.sol";
-import "@aragon/test-helpers/contracts/TokenMock.sol";
-import "@aragon/test-helpers/contracts/TokenReturnFalseMock.sol";
-import "@aragon/test-helpers/contracts/TokenReturnMissingMock.sol";
+import "@monesign/apps-shared-migrations/contracts/Migrations.sol";
+import "@monesign/test-helpers/contracts/EtherTokenConstantMock.sol";
+import "@monesign/test-helpers/contracts/TokenMock.sol";
+import "@monesign/test-helpers/contracts/TokenReturnFalseMock.sol";
+import "@monesign/test-helpers/contracts/TokenReturnMissingMock.sol";
 
 // You might think this file is a bit odd, but let me explain.
 // We only use some contracts in our tests, which means Truffle

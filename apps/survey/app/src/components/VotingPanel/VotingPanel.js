@@ -13,7 +13,7 @@ import {
   Slider,
   Text,
   TextInput,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import {
   formatNumber,
   percentageList,

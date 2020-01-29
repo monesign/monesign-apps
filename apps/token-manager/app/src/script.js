@@ -1,4 +1,4 @@
-import Aragon, { events } from '@aragon/api'
+import Aragon, { events } from '@monesign/api'
 import tokenSettings, { hasLoadedTokenSettings } from './token-settings'
 import { addressesEqual } from './web3-utils'
 import tokenAbi from './abi/minimeToken.json'

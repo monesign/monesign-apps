@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text } from '@aragon/ui'
+import { Text } from '@monesign/ui'
 import { animated } from 'react-spring'
 
 class SurveyOption extends React.Component {

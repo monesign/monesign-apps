@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { IconLabel, GU } from '@aragon/ui'
+import { IconLabel, GU } from '@monesign/ui'
 
 function LocalLabelPopoverActionLabel({ hasLabel }) {
   return (

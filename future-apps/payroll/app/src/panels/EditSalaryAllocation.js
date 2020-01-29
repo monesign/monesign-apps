@@ -9,7 +9,7 @@ import {
   Slider,
   theme,
   Text,
-} from '@aragon/ui'
+} from '@monesign/ui'
 
 import { connect } from '../context/AragonContext'
 

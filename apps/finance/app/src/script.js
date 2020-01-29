@@ -1,4 +1,4 @@
-import Aragon, { events } from '@aragon/api'
+import Aragon, { events } from '@monesign/api'
 import { first } from 'rxjs/operators'
 import { getTestTokenAddresses } from './testnet'
 import {

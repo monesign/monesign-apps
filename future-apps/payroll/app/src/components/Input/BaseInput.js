@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
-import { TextInput, theme } from '@aragon/ui'
+import { TextInput, theme } from '@monesign/ui'
 
 const BaseInput = styled(TextInput).attrs({
   wide: true,

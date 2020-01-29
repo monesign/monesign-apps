@@ -1,15 +1,15 @@
 pragma solidity 0.4.24;
 
-import "@aragon/apps-vault/contracts/Vault.sol";
-import "@aragon/os/contracts/acl/ACL.sol";
-import "@aragon/os/contracts/kernel/Kernel.sol";
-import "@aragon/os/contracts/kernel/KernelConstants.sol";
-import "@aragon/os/contracts/apm/Repo.sol";
-import "@aragon/os/contracts/apm/APMNamehash.sol";
-import "@aragon/os/contracts/factory/DAOFactory.sol";
-import "@aragon/os/contracts/lib/ens/ENS.sol";
-import "@aragon/os/contracts/lib/ens/PublicResolver.sol";
-import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@monesign/apps-vault/contracts/Vault.sol";
+import "@monesign/os/contracts/acl/ACL.sol";
+import "@monesign/os/contracts/kernel/Kernel.sol";
+import "@monesign/os/contracts/kernel/KernelConstants.sol";
+import "@monesign/os/contracts/apm/Repo.sol";
+import "@monesign/os/contracts/apm/APMNamehash.sol";
+import "@monesign/os/contracts/factory/DAOFactory.sol";
+import "@monesign/os/contracts/lib/ens/ENS.sol";
+import "@monesign/os/contracts/lib/ens/PublicResolver.sol";
+import "@monesign/apps-shared-minime/contracts/MiniMeToken.sol";
 
 import "../Survey.sol";
 

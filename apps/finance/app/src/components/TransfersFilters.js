@@ -1,5 +1,5 @@
 import React from 'react'
-import { DropDown, GU, DateRangePicker } from '@aragon/ui'
+import { DropDown, GU, DateRangePicker } from '@monesign/ui'
 
 const TransfersFilters = ({
   compactMode,

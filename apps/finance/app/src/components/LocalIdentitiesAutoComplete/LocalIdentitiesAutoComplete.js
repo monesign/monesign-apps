@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react'
-import { useAragonApi } from '@aragon/api-react'
+import { useAragonApi } from '@monesign/api-react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import {
@@ -9,7 +9,7 @@ import {
   IdentityBadge,
   RADIUS,
   useTheme,
-} from '@aragon/ui'
+} from '@monesign/ui'
 
 const withKey = item => ({ key: item.address, ...item })
 const sortAlphAsc = (a, b) => a.name.localeCompare(b.name)

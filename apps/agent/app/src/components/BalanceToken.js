@@ -1,5 +1,5 @@
 import React from 'react'
-import { textStyle, useTheme } from '@aragon/ui'
+import { textStyle, useTheme } from '@monesign/ui'
 import { formatTokenAmount } from '../lib/utils'
 
 const splitAmount = amount => {

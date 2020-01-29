@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Tag, GU } from '@aragon/ui'
+import { Tag, GU } from '@monesign/ui'
 
 function LocalLabelPopoverTitle({ label }) {
   return (

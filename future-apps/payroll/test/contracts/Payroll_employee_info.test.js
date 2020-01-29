@@ -1,5 +1,5 @@
-const { assertRevert } = require('@aragon/test-helpers/assertThrow')
-const { getEventArgument } = require('@aragon/test-helpers/events')
+const { assertRevert } = require('@monesign/test-helpers/assertThrow')
+const { getEventArgument } = require('@monesign/test-helpers/events')
 const { annualSalaryPerSecond } = require('../helpers/numbers')(web3)
 const { MAX_UINT256, MAX_UINT64 } = require('../helpers/numbers')(web3)
 const { NOW, ONE_MONTH, RATE_EXPIRATION_TIME } = require('../helpers/time')

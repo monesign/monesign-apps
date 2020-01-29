@@ -1,6 +1,6 @@
 import React, { useCallback } from 'react'
 import { Subject } from 'rxjs'
-import { useApi } from '@aragon/api-react'
+import { useApi } from '@monesign/api-react'
 
 const updates$ = new Subject()
 

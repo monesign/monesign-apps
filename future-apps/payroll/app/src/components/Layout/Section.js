@@ -1,4 +1,4 @@
-import { theme, unselectable } from '@aragon/ui'
+import { theme, unselectable } from '@monesign/ui'
 import styled from 'styled-components'
 
 const Section = styled.section`

@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Button, Card, Table as BaseTable, Text } from '@aragon/ui'
+import { Button, Card, Table as BaseTable, Text } from '@monesign/ui'
 import styled from 'styled-components'
 
 import TableCell from './TableCell'

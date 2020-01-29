@@ -1,8 +1,8 @@
 module.exports = {
     norpc: true,
-    copyPackages: ['@aragon/os'],
+    copyPackages: ['@monesign/os'],
     skipFiles: [
         'test',
-        '@aragon/os',
+        '@monesign/os',
     ]
 }

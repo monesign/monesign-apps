@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Field } from '@aragon/ui'
+import { Field } from '@monesign/ui'
 
 const InlineField = styled(Field)`
   label {

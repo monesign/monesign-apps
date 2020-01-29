@@ -10,8 +10,8 @@ import {
   RADIUS,
   textStyle,
   useTheme,
-} from '@aragon/ui'
-import { useAppState, useConnectedAccount } from '@aragon/api-react'
+} from '@monesign/ui'
+import { useAppState, useConnectedAccount } from '@monesign/api-react'
 import useExtendedVoteData from '../hooks/useExtendedVoteData'
 import { noop, formatDate } from '../utils'
 import { VOTE_NAY, VOTE_YEA } from '../vote-types'

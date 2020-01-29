@@ -1,5 +1,5 @@
 {
-  "name": "@aragon/apps-token-manager",
+  "name": "@monesign/apps-token-manager",
   "version": "2.1.0",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "test:gas": "GAS_REPORTER=true npm test",
     "coverage": "SOLIDITY_COVERAGE=true npm run ganache-cli:test",
     "truffle:dev": "truffle dev",
-    "ganache-cli:test": "./node_modules/@aragon/test-helpers/ganache-cli.sh",
+    "ganache-cli:test": "./node_modules/@monesign/test-helpers/ganache-cli.sh",
     "prepare": "npx apps-shared-scripts-prepare",
     "install:frontend": "cd app && npm install",
     "abi:extract": "truffle-extract --output abi/ --keys abi",
@@ -28,20 +28,15 @@
     "/contracts",
     "/test"
   ],
-  "author": "Aragon Association <legal@aragon.org>",
-  "contributors": [
-    "Jorge Izquierdo <jorge@aragon.one>",
-    "Pierre Bertet <pierre@aragon.one>",
-    "Oliver Nordbjerg <oliver@aragon.one>",
-    "Brett Sun <brett@aragon.one>"
-  ],
-  "license": "(GPL-3.0-or-later OR AGPL-3.0-or-later)",
+  "author": "",
+  "contributors": [],
+  "license": "",
   "description": "",
   "devDependencies": {
-    "@aragon/apps-shared-migrations": "1.0.0",
-    "@aragon/apps-shared-scripts": "^1.0.0",
-    "@aragon/cli": "^6.0.0",
-    "@aragon/test-helpers": "^2.1.0",
+    "@monesign/apps-shared-migrations": "1.0.0",
+    "@monesign/apps-shared-scripts": "^1.0.0",
+    "@monesign/cli": "^6.0.0",
+    "@monesign/test-helpers": "^2.1.0",
     "eth-gas-reporter": "^0.2.0",
     "ethereumjs-testrpc-sc": "^6.5.1-sc.0",
     "ganache-cli": "^6.4.3",
@@ -51,7 +46,8 @@
     "truffle-extract": "^1.2.1"
   },
   "dependencies": {
-    "@aragon/apps-shared-minime": "1.0.0",
-    "@aragon/os": "4.2.0"
+    "@monesign/apps-shared-minime": "1.0.2",
+    "@monesign/os": "4.2.0",
+    "del-cli": "^3.0.0"
   }
 }

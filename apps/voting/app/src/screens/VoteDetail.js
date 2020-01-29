@@ -13,8 +13,8 @@ import {
   textStyle,
   useLayout,
   useTheme,
-} from '@aragon/ui'
-import { useAppState, useConnectedAccount, useNetwork } from '@aragon/api-react'
+} from '@monesign/ui'
+import { useAppState, useConnectedAccount, useNetwork } from '@monesign/api-react'
 import { format } from 'date-fns'
 import LocalIdentityBadge from '../components/LocalIdentityBadge/LocalIdentityBadge'
 import LocalLabelAppBadge from '../components/LocalIdentityBadge/LocalLabelAppBadge'

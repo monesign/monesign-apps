@@ -1,13 +1,13 @@
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/apps/AragonApp.sol";
-import "@aragon/os/contracts/common/DepositableStorage.sol";
-import "@aragon/os/contracts/common/EtherTokenConstant.sol";
-import "@aragon/os/contracts/common/SafeERC20.sol";
-import "@aragon/os/contracts/lib/token/ERC20.sol";
+import "@monesign/os/contracts/apps/MonesignApp.sol";
+import "@monesign/os/contracts/common/DepositableStorage.sol";
+import "@monesign/os/contracts/common/EtherTokenConstant.sol";
+import "@monesign/os/contracts/common/SafeERC20.sol";
+import "@monesign/os/contracts/lib/token/ERC20.sol";
 
 
-contract Vault is EtherTokenConstant, AragonApp, DepositableStorage {
+contract Vault is EtherTokenConstant, MonesignApp, DepositableStorage {
     using SafeERC20 for ERC20;
 
     bytes32 public constant TRANSFER_ROLE = keccak256("TRANSFER_ROLE");

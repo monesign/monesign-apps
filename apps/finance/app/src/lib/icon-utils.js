@@ -1,4 +1,4 @@
-import { tokenIconUrl as _tokenIconUrl } from '@aragon/ui'
+import { tokenIconUrl as _tokenIconUrl } from '@monesign/ui'
 import { getTestTokenAddresses } from '../testnet'
 import { ETHER_TOKEN_FAKE_ADDRESS } from './token-utils'
 import { ETHER_TOKEN_VERIFIED_BY_SYMBOL } from './verified-tokens'

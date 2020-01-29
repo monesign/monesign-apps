@@ -1,18 +1,18 @@
 pragma solidity 0.4.24;
 
-import "@aragon/apps-finance/contracts/Finance.sol";
-import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
-import "@aragon/apps-vault/contracts/Vault.sol";
-import "@aragon/os/contracts/acl/ACL.sol";
-import "@aragon/os/contracts/apm/APMNamehash.sol";
-import "@aragon/os/contracts/apm/Repo.sol";
-import "@aragon/os/contracts/evmscript/IEVMScriptRegistry.sol";
-import "@aragon/os/contracts/factory/DAOFactory.sol";
-import "@aragon/os/contracts/kernel/Kernel.sol";
-import "@aragon/os/contracts/lib/ens/ENS.sol";
-import "@aragon/os/contracts/lib/ens/PublicResolver.sol";
-import "@aragon/ppf-contracts/contracts/IFeed.sol";
-import "@aragon/apps-token-manager/contracts/TokenManager.sol";
+import "@monesign/apps-finance/contracts/Finance.sol";
+import "@monesign/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@monesign/apps-vault/contracts/Vault.sol";
+import "@monesign/os/contracts/acl/ACL.sol";
+import "@monesign/os/contracts/apm/APMNamehash.sol";
+import "@monesign/os/contracts/apm/Repo.sol";
+import "@monesign/os/contracts/evmscript/IEVMScriptRegistry.sol";
+import "@monesign/os/contracts/factory/DAOFactory.sol";
+import "@monesign/os/contracts/kernel/Kernel.sol";
+import "@monesign/os/contracts/lib/ens/ENS.sol";
+import "@monesign/os/contracts/lib/ens/PublicResolver.sol";
+import "@monesign/ppf-contracts/contracts/IFeed.sol";
+import "@monesign/apps-token-manager/contracts/TokenManager.sol";
 
 import "../Payroll.sol";
 

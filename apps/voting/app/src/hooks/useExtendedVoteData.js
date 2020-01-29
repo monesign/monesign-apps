@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useAragonApi } from '@aragon/api-react'
+import { useAragonApi } from '@monesign/api-react'
 import { getUserBalanceAt, getUserBalanceNow } from '../token-utils'
 import { getCanExecute, getCanVote } from '../vote-utils'
 import useTokenContract from './useTokenContract'

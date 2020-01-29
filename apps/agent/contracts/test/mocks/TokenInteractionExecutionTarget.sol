@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import "@aragon/test-helpers/contracts/TokenMock.sol";
+import "@monesign/test-helpers/contracts/TokenMock.sol";
 import "../../Agent.sol";
 
 contract TokenInteractionExecutionTarget {

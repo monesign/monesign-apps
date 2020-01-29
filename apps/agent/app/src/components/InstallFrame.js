@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { ButtonBase, GU, Info } from '@aragon/ui'
+import { ButtonBase, GU, Info } from '@monesign/ui'
 import FrameSvg from './FrameSvg'
 import FrameModal from './FrameModal'
 

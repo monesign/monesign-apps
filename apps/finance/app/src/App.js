@@ -8,8 +8,8 @@ import {
   SidePanel,
   SyncIndicator,
   useLayout,
-} from '@aragon/ui'
-import { useAragonApi } from '@aragon/api-react'
+} from '@monesign/ui'
+import { useAragonApi } from '@monesign/api-react'
 import Balances from './components/Balances'
 import NewTransferPanelContent from './components/NewTransfer/PanelContent'
 import Transfers from './components/Transfers'

@@ -6,16 +6,16 @@
 
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/apps/AragonApp.sol";
-import "@aragon/os/contracts/common/IForwarder.sol";
+import "@monesign/os/contracts/apps/MonesignApp.sol";
+import "@monesign/os/contracts/common/IForwarder.sol";
 
-import "@aragon/os/contracts/lib/math/SafeMath.sol";
+import "@monesign/os/contracts/lib/math/SafeMath.sol";
 
-import "@aragon/apps-shared-minime/contracts/ITokenController.sol";
-import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@monesign/apps-shared-minime/contracts/ITokenController.sol";
+import "@monesign/apps-shared-minime/contracts/MiniMeToken.sol";
 
 
-contract TokenManager is ITokenController, IForwarder, AragonApp {
+contract TokenManager is ITokenController, IForwarder, MonesignApp {
     using SafeMath for uint256;
 
     bytes32 public constant MINT_ROLE = keccak256("MINT_ROLE");

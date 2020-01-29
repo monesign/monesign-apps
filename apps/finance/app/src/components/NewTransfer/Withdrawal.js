@@ -10,7 +10,7 @@ import {
   GU,
   textStyle,
   useTheme,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import LocalIdentitiesAutoComplete from '../LocalIdentitiesAutoComplete/LocalIdentitiesAutoComplete'
 import { toDecimals } from '../../lib/math-utils'
 import { addressPattern, isAddress } from '../../lib/web3-utils'

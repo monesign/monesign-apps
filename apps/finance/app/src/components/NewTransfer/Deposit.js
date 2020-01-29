@@ -13,8 +13,8 @@ import {
   GU,
   textStyle,
   useTheme,
-} from '@aragon/ui'
-import { useAragonApi } from '@aragon/api-react'
+} from '@monesign/ui'
+import { useAragonApi } from '@monesign/api-react'
 import QRCode from 'qrcode.react'
 import tokenBalanceOfAbi from '../../abi/token-balanceof.json'
 import tokenDecimalsAbi from '../../abi/token-decimals.json'

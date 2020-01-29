@@ -1,5 +1,5 @@
 import React from 'react'
-import Aragon, { providers } from '@aragon/client'
+import Aragon, { providers } from '@monesign/client'
 
 const AragonContext = React.createContext()
 

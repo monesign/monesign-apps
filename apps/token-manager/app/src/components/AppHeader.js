@@ -9,7 +9,7 @@ import {
   useLayout,
   useTheme,
   GU,
-} from '@aragon/ui'
+} from '@monesign/ui'
 
 const AppHeader = React.memo(function AppHeader({
   tokenSymbol,

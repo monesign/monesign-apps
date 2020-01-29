@@ -1,5 +1,5 @@
 const PAYMENT_TYPES = require('../helpers/payment_types')
-const { getEvents } = require('@aragon/test-helpers/events')
+const { getEvents } = require('@monesign/test-helpers/events')
 const { bigExp, ONE } = require('../helpers/numbers')(web3)
 const { NOW, TWO_MINUTES, RATE_EXPIRATION_TIME } = require('../helpers/time')
 const { deployContracts, createPayrollAndPriceFeed } = require('../helpers/deploy')(artifacts, web3)

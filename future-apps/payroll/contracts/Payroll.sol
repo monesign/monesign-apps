@@ -1,15 +1,15 @@
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/apps/AragonApp.sol";
-import "@aragon/os/contracts/common/EtherTokenConstant.sol";
-import "@aragon/os/contracts/common/IsContract.sol";
-import "@aragon/os/contracts/common/IForwarder.sol";
+import "@monesign/os/contracts/apps/AragonApp.sol";
+import "@monesign/os/contracts/common/EtherTokenConstant.sol";
+import "@monesign/os/contracts/common/IsContract.sol";
+import "@monesign/os/contracts/common/IForwarder.sol";
 
-import "@aragon/os/contracts/lib/math/SafeMath.sol";
-import "@aragon/os/contracts/lib/math/SafeMath64.sol";
+import "@monesign/os/contracts/lib/math/SafeMath.sol";
+import "@monesign/os/contracts/lib/math/SafeMath64.sol";
 
-import "@aragon/ppf-contracts/contracts/IFeed.sol";
-import "@aragon/apps-finance/contracts/Finance.sol";
+import "@monesign/ppf-contracts/contracts/IFeed.sol";
+import "@monesign/apps-finance/contracts/Finance.sol";
 
 
 /**

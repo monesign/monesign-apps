@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { DropDown } from '@aragon/ui'
+import { DropDown } from '@monesign/ui'
 
 import InlineField from '../../../components/Field/InlineField'
 

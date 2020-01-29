@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { font, springs } from '@aragon/ui'
+import { font, springs } from '@monesign/ui'
 import { Transition, animated } from 'react-spring'
 import arrow from './assets/arrow.svg'
 

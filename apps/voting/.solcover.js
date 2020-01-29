@@ -1,10 +1,10 @@
 module.exports = {
     norpc: true,
-    copyPackages: ['@aragon/os', '@aragon/apps-shared-minime', '@aragon/test-helpers'],
+    copyPackages: ['@monesign/os', '@monesign/apps-shared-minime', '@monesign/test-helpers'],
     skipFiles: [
         'test',
-        '@aragon/os',
-        '@aragon/apps-shared-minime',
-        '@aragon/test-helpers',
+        '@monesign/os',
+        '@monesign/apps-shared-minime',
+        '@monesign/test-helpers',
     ]
 }

@@ -21,12 +21,12 @@ import {
   useLayout,
   useTheme,
   useToast,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import {
   useConnectedAccount,
   useCurrentApp,
   useNetwork,
-} from '@aragon/api-react'
+} from '@monesign/api-react'
 import { saveAs } from 'file-saver'
 import * as TransferTypes from '../transfer-types'
 import { addressesEqual, toChecksumAddress } from '../lib/web3-utils'

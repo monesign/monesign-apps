@@ -4,19 +4,19 @@
 
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/apps/AragonApp.sol";
-import "@aragon/os/contracts/common/EtherTokenConstant.sol";
-import "@aragon/os/contracts/common/IsContract.sol";
-import "@aragon/os/contracts/common/SafeERC20.sol";
+import "@monesign/os/contracts/apps/MonesignApp.sol";
+import "@monesign/os/contracts/common/EtherTokenConstant.sol";
+import "@monesign/os/contracts/common/IsContract.sol";
+import "@monesign/os/contracts/common/SafeERC20.sol";
 
-import "@aragon/os/contracts/lib/token/ERC20.sol";
-import "@aragon/os/contracts/lib/math/SafeMath.sol";
-import "@aragon/os/contracts/lib/math/SafeMath64.sol";
+import "@monesign/os/contracts/lib/token/ERC20.sol";
+import "@monesign/os/contracts/lib/math/SafeMath.sol";
+import "@monesign/os/contracts/lib/math/SafeMath64.sol";
 
-import "@aragon/apps-vault/contracts/Vault.sol";
+import "@monesign/apps-vault/contracts/Vault.sol";
 
 
-contract Finance is EtherTokenConstant, IsContract, AragonApp {
+contract Finance is EtherTokenConstant, IsContract, MonesignApp {
     using SafeMath for uint256;
     using SafeMath64 for uint64;
     using SafeERC20 for ERC20;

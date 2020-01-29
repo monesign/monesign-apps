@@ -1,4 +1,4 @@
-import Aragon from '@aragon/client'
+import Aragon from '@monesign/client'
 import { of } from './rxjs'
 import surveySettings, {
   DURATION_SLICES,

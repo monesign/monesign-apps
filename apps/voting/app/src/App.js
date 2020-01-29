@@ -6,8 +6,8 @@ import {
   Main,
   SyncIndicator,
   useLayout,
-} from '@aragon/ui'
-import { useGuiStyle } from '@aragon/api-react'
+} from '@monesign/ui'
+import { useGuiStyle } from '@monesign/api-react'
 import NewVotePanel from './components/NewVotePanel'
 import useFilterVotes from './hooks/useFilterVotes'
 import useScrollTop from './hooks/useScrollTop'

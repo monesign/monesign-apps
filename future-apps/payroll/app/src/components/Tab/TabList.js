@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { theme } from '@aragon/ui'
+import { theme } from '@monesign/ui'
 
 import TabItem from './TabItem'
 

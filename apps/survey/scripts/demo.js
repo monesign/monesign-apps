@@ -1,13 +1,13 @@
 const namehash = require('eth-ens-namehash').hash
 
-const ENS = artifacts.require('@aragon/os/contracts/lib/ens/ENS')
-const MiniMeToken = artifacts.require('@aragon/os/contracts/lib/minime/MiniMeToken')
-const MiniMeTokenFactory = artifacts.require('@aragon/os/contracts/lib/minime/MiniMeTokenFactory')
-const PublicResolver = artifacts.require('@aragon/os/contracts/lib/ens/PublicResolver')
-const Repo = artifacts.require('@aragon/os/contracts/apm/Repo')
+const ENS = artifacts.require('@monesign/os/contracts/lib/ens/ENS')
+const MiniMeToken = artifacts.require('@monesign/os/contracts/lib/minime/MiniMeToken')
+const MiniMeTokenFactory = artifacts.require('@monesign/os/contracts/lib/minime/MiniMeTokenFactory')
+const PublicResolver = artifacts.require('@monesign/os/contracts/lib/ens/PublicResolver')
+const Repo = artifacts.require('@monesign/os/contracts/apm/Repo')
 
-const SurveyKit = artifacts.require('@aragon/kits-survey/contracts/SurveyKit')
-const Survey = artifacts.require('@aragon/apps-survey/contracts/Survey')
+const SurveyKit = artifacts.require('@monesign/kits-survey/contracts/SurveyKit')
+const Survey = artifacts.require('@monesign/apps-survey/contracts/Survey')
 
 // Utils
 const surveyAppId = namehash('survey.aragonpm.eth')

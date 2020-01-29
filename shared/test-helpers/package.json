@@ -1,8 +1,8 @@
 {
-  "name": "@aragon/test-helpers",
-  "version": "2.1.0",
-  "author": "Aragon Assocation <legal@aragon.org>",
-  "license": "AGPL-3.0-or-later",
+  "name": "@monesign/test-helpers",
+  "version": "2.1.2",
+  "author": "",
+  "license": "",
   "files": [
     "*.js",
     "*.sh",

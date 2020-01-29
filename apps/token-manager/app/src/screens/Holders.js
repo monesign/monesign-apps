@@ -1,7 +1,7 @@
 import React, { useMemo, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import BN from 'bn.js'
-import { useConnectedAccount } from '@aragon/api-react'
+import { useConnectedAccount } from '@monesign/api-react'
 import {
   ContextMenu,
   ContextMenuItem,
@@ -13,7 +13,7 @@ import {
   GU,
   useLayout,
   useTheme,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import { formatBalance } from '../utils'
 import { addressesEqual } from '../web3-utils'
 import InfoBoxes from '../components/InfoBoxes'

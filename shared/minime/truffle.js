@@ -20,6 +20,9 @@ module.exports = {
     optimizer: {
       enabled: true,
       runs: 10000
+    },
+    compiler: {
+      version: "^0.4.24"
     }
   },
 }

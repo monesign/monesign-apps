@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { Text } from '@aragon/ui'
+import { Text } from '@monesign/ui'
 
 import Input from './BaseInput'
 import DateInput from './DateInput'

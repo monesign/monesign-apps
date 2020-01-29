@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { Badge, IdentityBadge, font } from '@aragon/ui'
+import { Badge, IdentityBadge, font } from '@monesign/ui'
 import { useIdentity } from '../IdentityManager/IdentityManager'
 
 const LocalIdentityBadge = ({ entity, ...props }) => {

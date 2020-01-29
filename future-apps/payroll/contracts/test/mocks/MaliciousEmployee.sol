@@ -1,8 +1,8 @@
 pragma solidity 0.4.24;
 
 import "../../Payroll.sol";
-import "@aragon/os/contracts/lib/token/ERC20.sol";
-import "@aragon/os/contracts/lib/math/SafeMath.sol";
+import "@monesign/os/contracts/lib/token/ERC20.sol";
+import "@monesign/os/contracts/lib/math/SafeMath.sol";
 
 
 contract MaliciousEmployee {

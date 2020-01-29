@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { theme, unselectable } from '@aragon/ui'
+import { theme, unselectable } from '@monesign/ui'
 import VotesHistory from './VotesHistory'
 import VotesCast from './VotesCast'
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { theme } from '@aragon/ui'
+import { theme } from '@monesign/ui'
 
 const TabItem = styled.li`
   display: inline-block;

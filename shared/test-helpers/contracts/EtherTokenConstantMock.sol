@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/common/EtherTokenConstant.sol";
+import "@monesign/os/contracts/common/EtherTokenConstant.sol";
 
 
 contract EtherTokenConstantMock is EtherTokenConstant {

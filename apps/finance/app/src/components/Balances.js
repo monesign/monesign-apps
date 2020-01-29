@@ -1,6 +1,6 @@
 import React from 'react'
 import throttle from 'lodash.throttle'
-import { Box, GU, textStyle, useTheme } from '@aragon/ui'
+import { Box, GU, textStyle, useTheme } from '@monesign/ui'
 import BalanceToken from './BalanceToken'
 import { round } from '../lib/math-utils'
 

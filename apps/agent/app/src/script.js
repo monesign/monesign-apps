@@ -1,4 +1,4 @@
-import Aragon, { events } from '@aragon/api'
+import Aragon, { events } from '@monesign/api'
 
 const app = new Aragon()
 

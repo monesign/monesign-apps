@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { ButtonBase, GU, IconUp, RADIUS, springs, useTheme } from '@aragon/ui'
+import { ButtonBase, GU, IconUp, RADIUS, springs, useTheme } from '@monesign/ui'
 import { Transition, animated } from 'react-spring'
 
 const AnimatedDiv = animated.div

@@ -1,7 +1,7 @@
 pragma solidity ^0.4.24;
 
-import "@aragon/ppf-contracts/contracts/PPF.sol";
-import "@aragon/test-helpers/contracts/TimeHelpersMock.sol";
+import "@monesign/ppf-contracts/contracts/PPF.sol";
+import "@aramonesigngon/test-helpers/contracts/TimeHelpersMock.sol";
 
 
 contract PriceFeedMock is PPF, TimeHelpersMock {

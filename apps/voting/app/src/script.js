@@ -1,4 +1,4 @@
-import Aragon, { events } from '@aragon/api'
+import Aragon, { events } from '@monesign/api'
 import { addressesEqual } from './web3-utils'
 import voteSettings from './vote-settings'
 import { VOTE_ABSENT } from './vote-types'

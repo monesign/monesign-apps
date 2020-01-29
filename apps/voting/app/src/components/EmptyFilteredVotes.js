@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { Box, Link, GU, unselectable, useTheme } from '@aragon/ui'
+import { Box, Link, GU, unselectable, useTheme } from '@monesign/ui'
 import noResultsPng from '../assets/no-results.png'
 
 function EmptyFilteredVotes({ onClear }) {

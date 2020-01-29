@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
-import { theme } from '@aragon/ui'
+import { theme } from '@monesign/ui'
 import Table from '../../components/Table'
 import { TransactionBadge } from '../../components/Badge'
 import { salaryType } from '../../types'

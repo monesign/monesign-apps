@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Badge, Text, unselectable } from '@aragon/ui'
+import { Badge, Text, unselectable } from '@monesign/ui'
 
 const SurveyCardGroup = ({ title, count, children }) => (
   <Main>

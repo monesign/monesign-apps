@@ -1,11 +1,11 @@
 const { hash: namehash } = require('eth-ens-namehash')
 const ethUtil = require('ethereumjs-util')
 const ethABI = require('web3-eth-abi')
-const { assertRevert } = require('@aragon/test-helpers/assertThrow')
-const { assertAmountOfEvents } = require('@aragon/test-helpers/assertEvent')(web3)
-const { getEventArgument, getNewProxyAddress } = require('@aragon/test-helpers/events')
-const { encodeCallScript } = require('@aragon/test-helpers/evmScript')
-const { makeErrorMappingProxy } = require('@aragon/test-helpers/utils')
+const { assertRevert } = require('@monesign/test-helpers/assertThrow')
+const { assertAmountOfEvents } = require('@monesign/test-helpers/assertEvent')(web3)
+const { getEventArgument, getNewProxyAddress } = require('@monesign/test-helpers/events')
+const { encodeCallScript } = require('@monesign/test-helpers/evmScript')
+const { makeErrorMappingProxy } = require('@monesign/test-helpers/utils')
 
 // Allow for sharing this test across other agent implementations and subclasses
 module.exports = (
@@ -16,9 +16,9 @@ module.exports = (
     web3
   }
 ) => {
-  const web3Call = require('@aragon/test-helpers/call')(web3)
-  const web3Sign = require('@aragon/test-helpers/sign')(web3)
-  const getBalance = require('@aragon/test-helpers/balance')(web3)
+  const web3Call = require('@monesign/test-helpers/call')(web3)
+  const web3Sign = require('@monesign/test-helpers/sign')(web3)
+  const getBalance = require('@monesign/test-helpers/balance')(web3)
 
   const ACL = artifacts.require('ACL')
   const Kernel = artifacts.require('Kernel')

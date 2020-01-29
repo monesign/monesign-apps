@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { AppBar, AppView, AragonApp, Button, TabBar, theme } from '@aragon/ui'
+import { AppBar, AppView, AragonApp, Button, TabBar, theme } from '@monesign/ui'
 
 import { MyPayroll, TeamPayroll } from './screens'
 import { AddEmployee, RequestSalary } from './panels'

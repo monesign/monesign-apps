@@ -1,9 +1,9 @@
 module.exports = {
     norpc: true,
-    copyPackages: ['@aragon/os', '@aragon/apps-vault'],
+    copyPackages: ['@monesign/os', '@monesign/apps-vault'],
     skipFiles: [
         'test',
-        '@aragon/os',
-        '@aragon/apps-vault',
+        '@monesign/os',
+        '@monesign/apps-vault',
     ]
 }

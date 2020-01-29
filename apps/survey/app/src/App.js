@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { isBefore } from 'date-fns'
-import { AppView, Main, observe } from '@aragon/ui'
+import { AppView, Main, observe } from '@monesign/ui'
 import { Transition, animated } from 'react-spring'
 import tokenBalanceOfAtAbi from './abi/token-balanceOfAt.json'
 import tokenDecimalsAbi from './abi/token-decimals.json'

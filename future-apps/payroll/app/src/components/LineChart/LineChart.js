@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Spring } from 'react-spring'
-import { unselectable } from '@aragon/ui'
+import { unselectable } from '@monesign/ui'
 
 class LineChart extends React.Component {
   static propTypes = {

@@ -1,6 +1,6 @@
 import React from 'react'
-import { useAragonApi } from '@aragon/api-react'
-import { Box, LoadingRing, GU, useTheme } from '@aragon/ui'
+import { useAragonApi } from '@monesign/api-react'
+import { Box, LoadingRing, GU, useTheme } from '@monesign/ui'
 import noTransfersPng from './assets/no-transfers.png'
 
 function EmptyTransactions() {

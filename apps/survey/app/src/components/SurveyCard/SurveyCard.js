@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import color from 'onecolor'
 import { format } from 'date-fns'
-import { Countdown, Text, Button, Badge, theme } from '@aragon/ui'
+import { Countdown, Text, Button, Badge, theme } from '@monesign/ui'
 import SurveyCardGroup from './SurveyCardGroup'
 import SurveyOptions from '../SurveyOptions/SurveyOptions'
 

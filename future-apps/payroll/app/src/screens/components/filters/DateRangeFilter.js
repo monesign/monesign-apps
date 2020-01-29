@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { isWithinInterval, startOfDay, endOfDay } from 'date-fns'
-import { Field, IconBlank } from '@aragon/ui'
+import { Field, IconBlank } from '@monesign/ui'
 import InlineField from '../../../components/Field/InlineField'
 import Input from '../../../components/Input'
 

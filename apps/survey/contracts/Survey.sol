@@ -4,15 +4,15 @@
 
 pragma solidity 0.4.24;
 
-import "@aragon/os/contracts/apps/AragonApp.sol";
+import "@monesign/os/contracts/apps/MonesignApp.sol";
 
-import "@aragon/os/contracts/lib/math/SafeMath.sol";
-import "@aragon/os/contracts/lib/math/SafeMath64.sol";
+import "@monesign/os/contracts/lib/math/SafeMath.sol";
+import "@monesign/os/contracts/lib/math/SafeMath64.sol";
 
-import "@aragon/apps-shared-minime/contracts/MiniMeToken.sol";
+import "@monesign/apps-shared-minime/contracts/MiniMeToken.sol";
 
 
-contract Survey is AragonApp {
+contract Survey is MonesignApp {
     using SafeMath for uint256;
     using SafeMath64 for uint64;
 

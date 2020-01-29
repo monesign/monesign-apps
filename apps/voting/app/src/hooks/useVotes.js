@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { useAppState, useCurrentApp, useInstalledApps } from '@aragon/api-react'
+import { useAppState, useCurrentApp, useInstalledApps } from '@monesign/api-react'
 import { isVoteOpen } from '../vote-utils'
 import { VOTE_ABSENT } from '../vote-types'
 import { EMPTY_ADDRESS } from '../web3-utils'

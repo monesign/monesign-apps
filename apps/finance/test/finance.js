@@ -1,8 +1,8 @@
-const getBalance = require('@aragon/test-helpers/balance')(web3)
-const { assertRevert } = require('@aragon/test-helpers/assertThrow')
-const { makeErrorMappingProxy } = require('@aragon/test-helpers/utils')
-const { getEventArgument, getNewProxyAddress } = require('@aragon/test-helpers/events')
-const { assertEvent, assertAmountOfEvents } = require('@aragon/test-helpers/assertEvent')(web3)
+const getBalance = require('@monesign/test-helpers/balance')(web3)
+const { assertRevert } = require('@monesign/test-helpers/assertThrow')
+const { makeErrorMappingProxy } = require('@monesign/test-helpers/utils')
+const { getEventArgument, getNewProxyAddress } = require('@monesign/test-helpers/events')
+const { assertEvent, assertAmountOfEvents } = require('@monesign/test-helpers/assertEvent')(web3)
 
 const Finance = artifacts.require('FinanceMock')
 const Vault = artifacts.require('Vault')
@@ -376,7 +376,7 @@ contract('Finance App', ([root, owner, recipient]) => {
                 assertEvent(receipt, 'NewTransaction', { reference: 'Recover to Vault' })
             })
 
-            it('fail to be recovered using AragonApp#transferToVault', async () => {
+            it('fail to be recovered using MonesignApp#transferToVault', async () => {
                 await assertRevert(finance.transferToVault(tokenInstance.address), errors.RECOVER_DISALLOWED)
             })
 
@@ -418,7 +418,7 @@ contract('Finance App', ([root, owner, recipient]) => {
             assertEvent(receipt, 'NewTransaction', { reference: 'Recover to Vault' })
         })
 
-        it('fails to be recovered using AragonApp#transferToVault', async () => {
+        it('fails to be recovered using MonesignApp#transferToVault', async () => {
             await assertRevert(finance.transferToVault(ETH), errors.RECOVER_DISALLOWED)
         })
 
@@ -953,7 +953,7 @@ contract('Finance App', ([root, owner, recipient]) => {
                 assert.isTrue(await nonInit.allowRecoverability(token1.address))
             })
 
-            it('can be recovered using AragonApp#transferToVault', async () => {
+            it('can be recovered using MonesignApp#transferToVault', async () => {
                 await nonInit.transferToVault(token1.address)
 
                 assert.equal(await recVault.balance(token1.address), lockedTokenAmount)
@@ -976,7 +976,7 @@ contract('Finance App', ([root, owner, recipient]) => {
                 assert.isTrue(await nonInit.allowRecoverability(ETH))
             })
 
-            it('can recover ETH using AragonApp#transferToVault', async () => {
+            it('can recover ETH using MonesignApp#transferToVault', async () => {
                 await nonInit.transferToVault(ETH)
 
                 assert.equal(await recVault.balance(ETH), lockedETH)

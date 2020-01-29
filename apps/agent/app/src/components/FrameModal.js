@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button, Link, GU, Modal, textStyle, useTheme } from '@aragon/ui'
+import { Button, Link, GU, Modal, textStyle, useTheme } from '@monesign/ui'
 import FrameAndAgentSvg from './FrameAndAgentSvg'
 
 function FrameModal({ visible, onClose }) {

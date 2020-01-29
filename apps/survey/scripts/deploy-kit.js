@@ -4,8 +4,8 @@ const fs = require('fs')
 
 const namehash = require('eth-ens-namehash').hash
 
-const deployDAOFactory = require('@aragon/os/scripts/deploy-daofactory.js')
-const logDeploy = require('@aragon/os/scripts/helpers/deploy-logger')
+const deployDAOFactory = require('@monesign/os/scripts/deploy-daofactory.js')
+const logDeploy = require('@monesign/os/scripts/helpers/deploy-logger')
 
 const globalArtifacts = this.artifacts // Not injected unless called directly via truffle
 const defaultOwner = process.env.OWNER

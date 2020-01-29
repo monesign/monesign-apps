@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import styled, { css } from 'styled-components'
-import { TableHeader as BaseTableHeader, theme } from '@aragon/ui'
+import { TableHeader as BaseTableHeader, theme } from '@monesign/ui'
 
 const TableHeader = styled(BaseTableHeader)`
   position: relative;

@@ -1,4 +1,4 @@
-import Aragon from '@aragon/client'
+import Aragon from '@monesign/client'
 
 const instance = new Aragon()
 

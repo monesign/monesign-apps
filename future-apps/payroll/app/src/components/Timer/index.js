@@ -8,7 +8,7 @@ import {
   formatHtmlDatetime,
   unselectable,
   theme,
-} from '@aragon/ui'
+} from '@monesign/ui'
 
 const FRAME_EVERY = 1000 / 30 // 30 FPS is enough for a ticker
 

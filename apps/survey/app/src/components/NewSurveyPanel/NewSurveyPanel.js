@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { SidePanel, Info, Field, TextInput, Button } from '@aragon/ui'
+import { SidePanel, Info, Field, TextInput, Button } from '@monesign/ui'
 
 const initialState = {
   question: '',

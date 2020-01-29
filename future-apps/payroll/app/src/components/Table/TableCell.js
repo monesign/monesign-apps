@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { TableCell as BaseTableCell } from '@aragon/ui'
+import { TableCell as BaseTableCell } from '@monesign/ui'
 
 const TableCell = styled(BaseTableCell)``
 

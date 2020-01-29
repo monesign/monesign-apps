@@ -7,7 +7,7 @@ import {
   SafeLink,
   unselectable,
   theme,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import { Spring, Trail, animated } from 'react-spring'
 import color from 'onecolor'
 import provideNetwork from '../../provide-network'

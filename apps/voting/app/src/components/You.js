@@ -1,5 +1,5 @@
 import React from 'react'
-import { GU, Tag } from '@aragon/ui'
+import { GU, Tag } from '@monesign/ui'
 
 const You = () => (
   <Tag

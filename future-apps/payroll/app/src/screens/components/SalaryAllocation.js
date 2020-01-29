@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Button } from '@aragon/ui'
+import { Button } from '@monesign/ui'
 
 import { connect } from '../../context/AragonContext'
 import PartitionBar from '../../components/Bar/PartitionBar'

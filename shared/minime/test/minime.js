@@ -1,5 +1,5 @@
-const getBlockNumber = require('@aragon/test-helpers/blockNumber')(web3)
-const { assertRevert } = require('@aragon/test-helpers/assertThrow')
+const getBlockNumber = require('@monesign/test-helpers/blockNumber')(web3)
+const { assertRevert } = require('@monesign/test-helpers/assertThrow')
 const MiniMeToken = artifacts.require('MiniMeToken')
 const MiniMeTokenFactory = artifacts.require('MiniMeTokenFactory')
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Link, GU, Tag, textStyle, useTheme } from '@aragon/ui'
+import { Card, Link, GU, Tag, textStyle, useTheme } from '@monesign/ui'
 import AgentSvg from './AgentSvg'
 
 function ComingSoon() {

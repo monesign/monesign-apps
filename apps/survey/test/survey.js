@@ -1,8 +1,8 @@
-const { assertRevert } = require('@aragon/test-helpers/assertThrow')
-const { assertAmountOfEvents } = require('@aragon/test-helpers/assertEvent')(web3)
-const { getEventAt, getEventArgument, getNewProxyAddress } = require('@aragon/test-helpers/events')
-const getBlockNumber = require('@aragon/test-helpers/blockNumber')(web3)
-const { makeErrorMappingProxy } = require('@aragon/test-helpers/utils')
+const { assertRevert } = require('@monesign/test-helpers/assertThrow')
+const { assertAmountOfEvents } = require('@monesign/test-helpers/assertEvent')(web3)
+const { getEventAt, getEventArgument, getNewProxyAddress } = require('@monesign/test-helpers/events')
+const getBlockNumber = require('@monesign/test-helpers/blockNumber')(web3)
+const { makeErrorMappingProxy } = require('@monesign/test-helpers/utils')
 
 const getContract = name => artifacts.require(name)
 const pct16 = x => new web3.BigNumber(x).times(new web3.BigNumber(10).toPower(16))

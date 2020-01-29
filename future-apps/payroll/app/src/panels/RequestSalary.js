@@ -10,7 +10,7 @@ import {
   theme,
   Text,
   IconFundraising,
-} from '@aragon/ui'
+} from '@monesign/ui'
 import { differenceInSeconds } from 'date-fns'
 
 import { connect } from '../context/AragonContext'

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import { Main, Header, SyncIndicator, useLayout } from '@aragon/ui'
-import { useAragonApi } from '@aragon/api-react'
+import { Main, Header, SyncIndicator, useLayout } from '@monesign/ui'
+import { useAragonApi } from '@monesign/api-react'
 import InstallFrame from './components/InstallFrame'
 import { IdentityProvider } from './components/IdentityManager/IdentityManager'
 import ComingSoon from './components/ComingSoon'

@@ -1,6 +1,6 @@
 import React, { useMemo } from 'react'
-import { useConnectedAccount, useNetwork } from '@aragon/api-react'
-import { Box, Distribution, GU, TokenBadge, useTheme } from '@aragon/ui'
+import { useConnectedAccount, useNetwork } from '@monesign/api-react'
+import { Box, Distribution, GU, TokenBadge, useTheme } from '@monesign/ui'
 import { formatBalance, stakesPercentages } from '../utils'
 import { addressesEqual } from '../web3-utils'
 import LocalIdentityBadge from './LocalIdentityBadge/LocalIdentityBadge'

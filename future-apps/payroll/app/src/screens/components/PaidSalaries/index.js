@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Text, DropDown } from '@aragon/ui'
+import { Text, DropDown } from '@monesign/ui'
 import SalariesChart from './SalariesChart'
 import { CHART_TYPES } from './utils'
 

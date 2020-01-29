@@ -1,6 +1,6 @@
 import React from 'react'
-import { useNetwork } from '@aragon/api-react'
-import { IdentityBadge } from '@aragon/ui'
+import { useNetwork } from '@monesign/api-react'
+import { IdentityBadge } from '@monesign/ui'
 import { useIdentity } from '../IdentityManager/IdentityManager'
 import LocalLabelPopoverTitle from './LocalLabelPopoverTitle'
 import LocalLabelPopoverActionLabel from './LocalLabelPopoverActionLabel'
